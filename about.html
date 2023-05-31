@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="gerenal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>Document</title>
+
+    <title>DesokyShop|Home Page</title>
+</head>
+<body id="mainbody">
+   
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="tryHome.html"  class="" ><img id="logo" style="border-radius: 15px;" src="pict/logo1.jpg"></a>
+                <a class="brand linkHead" href="tryHome.html">Home</a>
+                <hr>
+                <a class="brand linkHead" href="about.html">About</a>
+                <hr>
+                <a class="brand linkHead" href="register.html">Contact US</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Register</a> </li>
+                        <li>
+                            <a onclick="alert('u need login to see ur')" href="login.html" class="show-product"><i class="fa-solid fa-cart-shopping"></i></a>
+                            
+                        </li>
+                    </ul>
+                    <ul id="user-info">
+                        <li class="shoppingCart">
+                            <a href="#" id="user"></a>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            
+                            <span class="badge">0   </span>
+                            <a href="#" id="logout">LogOut</a>
+                            <div class="carts-product">
+                                <div class="carts-product-dom"></div>
+                                <a href="cartpage.html" class="show-product">View All Products</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>   
+    </header>
+    <section class="info">
+        <div class="container">
+            <div class="aboutUs">
+                <h2>Welcome to Desoky Market</h2>
+                <img src="pict/logo2.png" class="logo" alt="" >
+                <p class="information">
+                    Hello Dear Customer in first look u maybe think our market only for small product , but your thinking is wrong because u can buy even car in our market 
+                    Desoky market have open since 2001
+                    we got our customer's trust
+                    <hr style="margin: 5px 0;">
+                    <h3>We deal with Many Trusted Brands</h3>
+                </p>
+            </div>
+            <div class="productCompant">
+                <h2>Brands we deal with it in every product </h2>
+                <div class="marka">
+                    <h2>Phone Brand</h2>
+                    <img src="pict/samsung.png" alt="img" class="imgAbout">
+                    <img src="pict/shawmi.png" alt="img" class="imgAbout">
+                    <img src="pict/apple.png" alt="img" class="imgAbout">
+                </div>
+                <div class="marka">
+                    <h2>Lab Brand</h2>
+                    <img src="pict/vaio.png" alt="img" class="imgAbout">
+                    <img src="pict/dell.png" alt="img" class="imgAbout">
+                    <img src="pict/lenovo.png" alt="img" class="imgAbout">
+                </div>
+                <div class="marka">
+                    <h2>Car Brand</h2>
+                    <img src="pict/kia.png" alt="img" class="imgAbout">
+                    <img src="pict/nissan.jpg" alt="img" class="imgAbout">
+                    <img src="pict/hyundai.png" alt="img" class="imgAbout">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div id="footerDiv">
+        <a class="groupFooterLink" href="https://www.facebook.com/ahmed.desoky.5832/"><i style="margin-right: 10px;" class="fa fa-facebook-square"></i></a>
+        <a class="groupFooterLink" href="tel:+201288633786"><i style="margin-right: 10px;" class="fa fa-phone"></i></a>
+        <a class="groupFooterLink" href="mailto:dagon1196@gmail.com"><i style="margin-right: 10px;" class="fa fa-google-plus-square"></i></a>
+        <a class="groupFooterLink" href="https://wa.me/01288633786?text=Hello this Desoky Market"><i style="margin-right: 10px;" class="fa fa-whatsapp"></i></a>
+        <hr style="height: 250px;">
+        <iframe id="framemap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2887.964367454995!2d31.517047899370507!3d30.5948238921367!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1680233540137!5m2!1sen!2seg" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            
+    </div>
+    <div id="uphome">
+        <a href="#mainbody"><img  src="pict/goUp.jpg" style="width: 50px;"></a>
+    </div>
+    <script src="home.js"></script>
+    <script src="about.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
